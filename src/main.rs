@@ -1,10 +1,8 @@
 #![feature(int_roundings)]
 
-mod lib;
-use std::fmt::format;
 
-use lib::{*, ttablegen::generateTruthTable, notation::LOGICAL_AND};
-
+mod util;
+pub use util::*;
 fn main() {
-    assignments::assignment1();
+    assignments::assignment2();
 }

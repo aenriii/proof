@@ -1,4 +1,4 @@
-# im just using this for things in cs you can ignore this if you want
+<!-- # im just using this for things in cs you can ignore this if you want
 
 ## usage
 
@@ -43,4 +43,8 @@ idk what that constitutes as so here's a list of
 dependencies and why im using them
 
 - strsim: for fuzzy string matching (in latex document generation)
-- latex: for latex document generation
+- latex: for latex document generation -->
+
+# cs203
+
+im going rapidly insane

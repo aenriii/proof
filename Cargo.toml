@@ -5,6 +5,22 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[build-dependencies]
+zigc = "*"
+
 [dependencies]
 latex = "0.3.1"
+rand = "0.8.5"
 strsim = "0.10.0"
+libc = "*"
+modpow = "1.0.1"
+num-bigint = "0.2.6"
+num-traits = "0.2.16"
+
+[build-dependencies.osstrtools]
+git = "https://github.com/Artturin/osstrtools.git"
+branch = "fixtypo"
+
+[patch.crates-io]
+osstrtools = { git = "https://github.com/Artturin/osstrtools.git", branch = "fixtypo" }
+zigc = { git = "https://github.com/jdadonut/zigc.git", branch = "fixtypo" }

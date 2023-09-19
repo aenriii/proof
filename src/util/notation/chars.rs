@@ -1,3 +1,5 @@
+
+#![allow(dead_code)]
 /*
  The characters here are based on the Notation section of https://cs.indstate.edu/wiki/index.php/Math_for_CS_Review
 */
@@ -56,3 +58,4 @@ pub static NUM_EDGES_OF_GRAPH: NotationChar = "m";
 pub static NUM_VERTICES_OF_GRAPH: NotationChar = "n";
 pub static DEGREE_OF_VERTEX: NotationChar = "deg";
 pub static SUCH_THAT: NotationChar = "s.t.";
+pub static NOT_EQ: NotationChar = "≠";
